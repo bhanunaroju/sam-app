@@ -10,8 +10,8 @@ on:
       - 'feature**'
 
 env:
-  PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.Bhanu }}
+  PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.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 }}
   SAM_TEMPLATE: template.yaml
   TESTING_STACK_NAME: sam-app-dev
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::974195385423:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-8WABEYUWHL8L
